@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar-icon {
+  @apply relative flex items-center justify-center h-12 w-12 my-2 mx-auto shadow-lg
+           bg-gray-900 text-white hover:bg-green-600 cursor-pointer
+           rounded-full hover:rounded-xl transition-all duration-75 ease-linear;
+}
+
+.sidebar-tooltip {
+  @apply absolute w-auto p-2 m-2 min-w-max left-4 rounded-md text-white bg-gray-900 text-xs
+        font-bold transition-all duration-100 origin-left;
+}
+
+/* Transitions - are for animations */
